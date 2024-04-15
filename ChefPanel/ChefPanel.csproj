@@ -1,0 +1,177 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\adminLTE\plugins\bootstrap-switch\css\bootstrap2\" />
+    <Folder Include="wwwroot\adminLTE\plugins\bootstrap-switch\css\bootstrap3\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\addon\comment\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\addon\dialog\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\addon\display\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\addon\edit\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\addon\fold\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\addon\hint\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\addon\lint\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\addon\merge\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\addon\mode\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\addon\runmode\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\addon\scroll\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\addon\search\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\addon\selection\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\addon\tern\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\addon\wrap\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\apl\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\asciiarmor\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\asn.1\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\asterisk\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\brainfuck\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\clike\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\clojure\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\cmake\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\cobol\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\coffeescript\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\commonlisp\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\crystal\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\css\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\cypher\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\dart\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\diff\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\django\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\dockerfile\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\dtd\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\dylan\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\d\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\ebnf\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\ecl\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\eiffel\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\elm\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\erlang\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\factor\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\fcl\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\forth\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\fortran\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\gas\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\gfm\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\gherkin\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\go\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\groovy\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\haml\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\handlebars\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\haskell-literate\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\haskell\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\haxe\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\htmlembedded\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\htmlmixed\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\http\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\idl\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\javascript\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\jinja2\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\jsx\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\julia\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\livescript\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\lua\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\markdown\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\mathematica\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\mbox\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\mirc\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\mllike\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\modelica\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\mscgen\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\mumps\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\nginx\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\nsis\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\ntriples\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\octave\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\oz\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\pascal\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\pegjs\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\perl\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\php\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\pig\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\powershell\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\properties\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\protobuf\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\pug\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\puppet\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\python\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\q\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\rpm\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\rst\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\ruby\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\rust\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\r\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\sass\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\sas\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\scheme\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\shell\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\sieve\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\slim\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\smalltalk\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\smarty\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\solr\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\soy\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\sparql\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\spreadsheet\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\sql\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\stex\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\stylus\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\swift\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\tcl\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\textile\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\tiddlywiki\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\tiki\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\toml\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\tornado\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\troff\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\ttcn-cfg\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\ttcn\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\turtle\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\twig\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\vbscript\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\vb\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\velocity\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\verilog\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\vhdl\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\vue\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\wast\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\webidl\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\xml\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\xquery\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\yacas\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\yaml-frontmatter\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\yaml\" />
+    <Folder Include="wwwroot\adminLTE\plugins\codemirror\mode\z80\" />
+    <Folder Include="wwwroot\adminLTE\plugins\flag-icon-css\flags\1x1\" />
+    <Folder Include="wwwroot\adminLTE\plugins\flag-icon-css\flags\4x3\" />
+    <Folder Include="wwwroot\adminLTE\plugins\jqvmap\maps\continents\" />
+    <Folder Include="wwwroot\adminLTE\plugins\pace-progress\themes\black\" />
+    <Folder Include="wwwroot\adminLTE\plugins\pace-progress\themes\blue\" />
+    <Folder Include="wwwroot\adminLTE\plugins\pace-progress\themes\green\" />
+    <Folder Include="wwwroot\adminLTE\plugins\pace-progress\themes\orange\" />
+    <Folder Include="wwwroot\adminLTE\plugins\pace-progress\themes\pink\" />
+    <Folder Include="wwwroot\adminLTE\plugins\pace-progress\themes\purple\" />
+    <Folder Include="wwwroot\adminLTE\plugins\pace-progress\themes\red\" />
+    <Folder Include="wwwroot\adminLTE\plugins\pace-progress\themes\silver\" />
+    <Folder Include="wwwroot\adminLTE\plugins\pace-progress\themes\white\" />
+    <Folder Include="wwwroot\adminLTE\plugins\pace-progress\themes\yellow\" />
+    <Folder Include="wwwroot\adminLTE\plugins\select2\js\i18n\" />
+    <Folder Include="wwwroot\adminLTE\plugins\summernote\plugin\databasic\" />
+    <Folder Include="wwwroot\adminLTE\plugins\summernote\plugin\hello\" />
+    <Folder Include="wwwroot\adminLTE\plugins\summernote\plugin\specialchars\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Linq.Dynamic.Core" Version="1.3.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Infrastructure\Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ProjectExtensions><VisualStudio><UserProperties properties_4launchsettings_1json__JsonSchema="https://json.schemastore.org/lintstagedrc.schema.json" /></VisualStudio></ProjectExtensions>
+
+</Project>
