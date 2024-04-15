@@ -1,0 +1,270 @@
+﻿<style>
+    .nav-pills .nav-link {
+        color: #726c6c !important;
+        font-family: opensans-regular;
+    }
+
+
+        .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+            color: white !important;
+            background-color: #010485 !important;
+            border-radius: 10px !important;
+        }
+
+        .nav-pills .nav-link:not(.active):hover {
+            color: grey !important;
+            background-color: #fff !important;
+        }
+
+    .nav-sidebar .nav-link p {
+        display: inline;
+        margin: 0;
+        white-space: normal;
+        font-family: 'Poppins';
+    }
+
+    .user-panel img {
+        height: auto !important;
+        width: 90% !important;
+    }
+
+    .main-sidebar {
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+    }
+
+    .nav-sidebar .nav-link p {
+        display: inline;
+        margin: 0;
+        white-space: normal;
+        font-family: PoppinsFontmedium !important;
+        font-weight: 500;
+    }
+
+    .navbarScroll {
+        height: calc(100% - (7.5rem + 1px)) !important;
+        overflow-x: hidden;
+        overflow-y: initial;
+        padding-bottom: 0px;
+        padding-top: 0;
+    }
+
+    @@media (max-height: 504px) {
+        .navbarScroll {
+            height: calc(100% - (5.5rem + 1px)) !important; /* 62% if image size change */
+            overflow-x: hidden;
+            overflow-y: initial;
+            padding-bottom: 0px;
+            padding-top: 0;
+        }
+
+        #groupImage {
+            display: none;
+        }
+    }
+
+    @@media (min-height:505px) and (max-height: 560px) {
+        .navbarScroll {
+            height: calc(62% - (7.5rem + 1px)) !important;
+            overflow-x: hidden;
+            overflow-y: initial;
+            padding-bottom: 0px;
+            padding-top: 0;
+        }
+
+        #groupImage {
+            bottom: 166px;
+        }
+    }
+
+    @@media (min-height:561px) and (max-height: 640px) {
+        .navbarScroll {
+            height: calc(67% - (7.5rem + 1px)) !important;
+            overflow-x: hidden;
+            overflow-y: initial;
+            padding-bottom: 0px;
+            padding-top: 0;
+        }
+    }
+</style>
+<aside class="main-sidebar elevation-4" style="background:#fff;box-shadow:0 0px 0px rgb(0 0 0 / 5%), 0 10px 10px rgb(0 0 0 / 10%) !important; overflow:hidden;">
+    <div class="sidebar">
+        <div class="user-panel text-center  mt-4">
+            <div class="image mb-2">
+                <img src="~/images/8635fdd8924cc8147a1acf51cf839324.png" alt="Warren's Catering" id="warrenCatering" />
+                <img src="~/images/cattering.png" alt="WC" class="d-none" style="width:100%" id="wc" />
+            </div>
+            <hr />
+        </div>
+        <nav class="navbarScroll">
+            <ul class="nav nav-pills nav-sidebar flex-column mt-3" data-widget="treeview" role="menu"
+                data-accordion="false">
+
+                <li class="nav-item">
+                    <a class="nav-link font-14-px" href="/Management/dashboard" id="dashboard">
+                        <img src="~/images/dashboard.png" id="dashboard-black" />
+                        <img src="~/images/dashboard-white.png" id="dashboard-white" class="d-none" />
+                        <p class="montserrat-m ml-2">&nbsp;Dashboard</p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link font-14-px" href="/management/Organizations" id="nav-office">
+                        <img src="~/images/office.png" id="office" />
+                        <img src="~/images/office-white.png" id="office-white" class="d-none" />
+                        <p class="montserrat-m ml-2">&nbsp;Organizations</p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link font-14-px" href="/management/Chefs" id="nav-chef">
+                        <img src="~/images/chef-hat.png" id="chef" />
+                        <img src="~/images/chef-hat-white.png" id="chef-white" class="d-none" />
+                        <p class="montserrat-m ml-2">&nbsp;Chefs</p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link font-14-px" href="/management/Users" id="nav-community">
+                        <img src="~/images/community.png" id="community" />
+                        <img src="~/images/community-white.png" id="community-white" class="d-none" />
+                        <p class="montserrat-m ml-2">&nbsp; Users</p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link font-14-px" href="/management/Items" id="nav-menu">
+                        <img src="~/images/menu.png" id="menu-img" />
+                        <img src="~/images/menu-white.png" id="menu-img-white" class="d-none" />
+                        <p class="montserrat-m ml-2">&nbsp; Menu Items</p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link font-14-px" href="/management/Meals" id="nav-tray">
+                        <img src="~/images/tray.png" id="tray" />
+                        <img src="~/images/tray-white.png" id="tray-white" class="d-none" />
+                        <p class="montserrat-m ml-2">Meals</p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link font-14-px" href="/management/Orders" id="nav-order">
+                        <img src="~/images/order-history.png" id="order-history" />
+                        <img src="~/images/order-history-white.png" id="order-history-white" class="d-none" />
+                        <p class="montserrat-m ml-2">Orders</p>
+                    </a>
+                </li>
+                @*                <li class="nav-item">
+                <a class="nav-link font-14-px" href="/Management/Terms & Condition">
+                <img src="~/images/g1359.png" />
+                <p class="montserrat-m">Terms & Condition</p>
+                </a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link font-14-px" href="/Management/privacy policy">
+                <img src="~/images/layer 2.png" />
+                <p class="montserrat-m">Privacy Policy</p>
+                </a>
+                </li>*@
+            </ul>
+            <div style="position: relative">
+            </div>
+        </nav>
+        <a class="font-14-px" href="/Management/Items">
+            <img src="/Images/image_2023_10_30T14_33_15_747Z.png" id="groupImage" class="imageset" alt="Menu" style="width: 228px; position:fixed; bottom:42px; z-index:-1;" />
+        </a>
+        @*        <nav>
+        <div style="position:relative;">
+        <a class="font-14-px" href="/Management/Items">
+        <img src="/Images/image_2023_10_30T14_33_15_747Z.png" id="groupImage" class="imageset" alt="Menu" style="margin-top: 80px;max-width: 100%; position:absolute;" />
+        </a>
+        </div>
+        </nav>*@
+
+
+    </div>
+</aside>
+
+<script>
+    $('#dashboard').click(function () {
+        if ($('#dashboard-white').hasClass('d-none')) {
+            $('#dashboard-white').removeClass('d-none');
+            $('#dashboard-black').addClass('d-none');
+        }
+        else {
+            $('#dashboard-white').addClass('d-none');
+            $('#dashboard-black').removeClass('d-none');
+        }
+    });
+    $('#nav-office').click(function () {
+        if ($('#office-white').hasClass('d-none')) {
+            $('#office-white').removeClass('d-none');
+            $('#office').addClass('d-none');
+        }
+        else {
+            $('#office-white').addClass('d-none');
+            $('#office').removeClass('d-none');
+        }
+    });
+    $('#nav-chef').click(function () {
+        if ($('#chef-white').hasClass('d-none')) {
+            $('#chef-white').removeClass('d-none');
+            $('#chef').addClass('d-none');
+        }
+        else {
+            $('#chef-white').addClass('d-none');
+            $('#chef').removeClass('d-none');
+        }
+    });
+    $('#nav-community').click(function () {
+        $('#community-white, #community').toggleClass('d-none');
+    });
+    $('#nav-menu').click(function () {
+        $('#menu-img-white, #menu-img').toggleClass('d-none');
+    });
+    $('#nav-tray').click(function () {
+        $('#tray-white, #tray').toggleClass('d-none');
+    });
+    $('#nav-order').click(function () {
+        $('#order-history-white, #order-history').toggleClass('d-none');
+    });
+
+    // for toggle image on sidebar
+
+    $('#bars').click(function () {
+        $('#wc , #warrenCatering').toggleClass('d-none');
+        if ($('#groupImage').hasClass('d-none')) {
+            $('#groupImage').removeClass('d-none');
+        }
+        else {
+            $('#groupImage').addClass('d-none');
+        }
+
+        if ($('#sideBar').hasClass('collaps')) {
+            $('#sideBar').removeClass('collaps');
+        }
+        else {
+            $('#sideBar').addClass('collaps');
+        }
+    });
+
+
+    const sidebar = $('.sidebar-mini');
+    if ($(sidebar).hasClass('sidebar-collapse')) {
+        // Add hover event listener to the sidebar
+
+        $('.main-sidebar').hover(function () {
+            // Mouse enters the sidebar (expanding)
+            debugger;
+            if ($('#warrenCatering').hasClass('d-none')) {
+                $('#wc').addClass('d-none');
+                $('#warrenCatering').removeClass('d-none');
+                $('#groupImage').removeClass('d-none');
+            }
+        }, function () {
+            // Mouse leaves the sidebar (collapsing)
+            $('#wc, #warrenCatering').toggleClass('d-none');
+            if ($('#groupImage').hasClass('d-none')) {
+                $('#groupImage').removeClass('d-none');
+            } else {
+                $('#groupImage').addClass('d-none');
+            }
+
+        });
+    }
+</script>

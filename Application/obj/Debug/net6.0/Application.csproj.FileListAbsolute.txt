@@ -1,0 +1,60 @@
+H:\dotnet core apis\WarrensCatering\Application\bin\Debug\net6.0\Application.deps.json
+H:\dotnet core apis\WarrensCatering\Application\bin\Debug\net6.0\Application.dll
+H:\dotnet core apis\WarrensCatering\Application\bin\Debug\net6.0\Application.pdb
+H:\dotnet core apis\WarrensCatering\Application\bin\Debug\net6.0\Domain.dll
+H:\dotnet core apis\WarrensCatering\Application\bin\Debug\net6.0\Domain.pdb
+H:\dotnet core apis\WarrensCatering\Application\obj\Debug\net6.0\Application.csproj.AssemblyReference.cache
+H:\dotnet core apis\WarrensCatering\Application\obj\Debug\net6.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+H:\dotnet core apis\WarrensCatering\Application\obj\Debug\net6.0\Application.AssemblyInfoInputs.cache
+H:\dotnet core apis\WarrensCatering\Application\obj\Debug\net6.0\Application.AssemblyInfo.cs
+H:\dotnet core apis\WarrensCatering\Application\obj\Debug\net6.0\Application.csproj.CoreCompileInputs.cache
+H:\dotnet core apis\WarrensCatering\Application\obj\Debug\net6.0\Application.csproj.CopyComplete
+H:\dotnet core apis\WarrensCatering\Application\obj\Debug\net6.0\Application.dll
+H:\dotnet core apis\WarrensCatering\Application\obj\Debug\net6.0\refint\Application.dll
+H:\dotnet core apis\WarrensCatering\Application\obj\Debug\net6.0\Application.pdb
+H:\dotnet core apis\WarrensCatering\Application\obj\Debug\net6.0\ref\Application.dll
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\Application\bin\Debug\net6.0\Application.deps.json
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\Application\bin\Debug\net6.0\Application.dll
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\Application\bin\Debug\net6.0\Application.pdb
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\Application\bin\Debug\net6.0\Domain.dll
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\Application\bin\Debug\net6.0\Domain.pdb
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\Application\obj\Debug\net6.0\Application.csproj.AssemblyReference.cache
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\Application\obj\Debug\net6.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\Application\obj\Debug\net6.0\Application.AssemblyInfoInputs.cache
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\Application\obj\Debug\net6.0\Application.AssemblyInfo.cs
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\Application\obj\Debug\net6.0\Application.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\Application\obj\Debug\net6.0\Application.csproj.CopyComplete
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\Application\obj\Debug\net6.0\Application.dll
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\Application\obj\Debug\net6.0\refint\Application.dll
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\Application\obj\Debug\net6.0\Application.pdb
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\Application\obj\Debug\net6.0\ref\Application.dll
+D:\Assorttech projects\warren-catering\Application\bin\Debug\net6.0\Domain.dll
+D:\Assorttech projects\warren-catering\Application\bin\Debug\net6.0\Domain.pdb
+D:\Assorttech projects\warren-catering\Application\obj\Debug\net6.0\Application.csproj.AssemblyReference.cache
+D:\Assorttech projects\warren-catering\Application\obj\Debug\net6.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Assorttech projects\warren-catering\Application\obj\Debug\net6.0\Application.AssemblyInfoInputs.cache
+D:\Assorttech projects\warren-catering\Application\obj\Debug\net6.0\Application.AssemblyInfo.cs
+D:\Assorttech projects\warren-catering\Application\obj\Debug\net6.0\Application.csproj.CoreCompileInputs.cache
+D:\Assorttech projects\warren-catering\Application\obj\Debug\net6.0\Application.csproj.CopyComplete
+D:\Assorttech projects\warren-catering\Application\obj\Debug\net6.0\Application.dll
+D:\Assorttech projects\warren-catering\Application\obj\Debug\net6.0\refint\Application.dll
+D:\Assorttech projects\warren-catering\Application\obj\Debug\net6.0\Application.pdb
+D:\Assorttech projects\warren-catering\Application\bin\Debug\net6.0\Application.deps.json
+D:\Assorttech projects\warren-catering\Application\bin\Debug\net6.0\Application.dll
+D:\Assorttech projects\warren-catering\Application\bin\Debug\net6.0\Application.pdb
+D:\Assorttech projects\warren-catering\Application\obj\Debug\net6.0\ref\Application.dll
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\Application\bin\Debug\net6.0\Application.deps.json
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\Application\bin\Debug\net6.0\Application.dll
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\Application\bin\Debug\net6.0\Application.pdb
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\Application\bin\Debug\net6.0\Domain.dll
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\Application\bin\Debug\net6.0\Domain.pdb
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\Application\obj\Debug\net6.0\Application.csproj.AssemblyReference.cache
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\Application\obj\Debug\net6.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\Application\obj\Debug\net6.0\Application.AssemblyInfoInputs.cache
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\Application\obj\Debug\net6.0\Application.AssemblyInfo.cs
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\Application\obj\Debug\net6.0\Application.csproj.CoreCompileInputs.cache
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\Application\obj\Debug\net6.0\Application.csproj.CopyComplete
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\Application\obj\Debug\net6.0\Application.dll
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\Application\obj\Debug\net6.0\refint\Application.dll
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\Application\obj\Debug\net6.0\Application.pdb
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\Application\obj\Debug\net6.0\ref\Application.dll

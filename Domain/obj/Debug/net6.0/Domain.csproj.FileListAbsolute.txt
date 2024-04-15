@@ -1,0 +1,52 @@
+H:\dotnet core apis\WarrensCatering\Domain\bin\Debug\net6.0\Domain.deps.json
+H:\dotnet core apis\WarrensCatering\Domain\bin\Debug\net6.0\Domain.dll
+H:\dotnet core apis\WarrensCatering\Domain\bin\Debug\net6.0\Domain.pdb
+H:\dotnet core apis\WarrensCatering\Domain\obj\Debug\net6.0\Domain.csproj.AssemblyReference.cache
+H:\dotnet core apis\WarrensCatering\Domain\obj\Debug\net6.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+H:\dotnet core apis\WarrensCatering\Domain\obj\Debug\net6.0\Domain.AssemblyInfoInputs.cache
+H:\dotnet core apis\WarrensCatering\Domain\obj\Debug\net6.0\Domain.AssemblyInfo.cs
+H:\dotnet core apis\WarrensCatering\Domain\obj\Debug\net6.0\Domain.csproj.CoreCompileInputs.cache
+H:\dotnet core apis\WarrensCatering\Domain\obj\Debug\net6.0\EFCoreSqlServerNetTopologySuite.cs
+H:\dotnet core apis\WarrensCatering\Domain\obj\Debug\net6.0\Domain.dll
+H:\dotnet core apis\WarrensCatering\Domain\obj\Debug\net6.0\refint\Domain.dll
+H:\dotnet core apis\WarrensCatering\Domain\obj\Debug\net6.0\Domain.pdb
+H:\dotnet core apis\WarrensCatering\Domain\obj\Debug\net6.0\ref\Domain.dll
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\Domain\bin\Debug\net6.0\Domain.deps.json
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\Domain\bin\Debug\net6.0\Domain.dll
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\Domain\bin\Debug\net6.0\Domain.pdb
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\Domain\obj\Debug\net6.0\Domain.csproj.AssemblyReference.cache
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\Domain\obj\Debug\net6.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\Domain\obj\Debug\net6.0\Domain.AssemblyInfoInputs.cache
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\Domain\obj\Debug\net6.0\Domain.AssemblyInfo.cs
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\Domain\obj\Debug\net6.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\Domain\obj\Debug\net6.0\EFCoreSqlServerNetTopologySuite.cs
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\Domain\obj\Debug\net6.0\Domain.dll
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\Domain\obj\Debug\net6.0\refint\Domain.dll
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\Domain\obj\Debug\net6.0\Domain.pdb
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\Domain\obj\Debug\net6.0\ref\Domain.dll
+D:\Assorttech projects\warren-catering\Domain\obj\Debug\net6.0\Domain.dll
+D:\Assorttech projects\warren-catering\Domain\obj\Debug\net6.0\refint\Domain.dll
+D:\Assorttech projects\warren-catering\Domain\obj\Debug\net6.0\Domain.pdb
+D:\Assorttech projects\warren-catering\Domain\bin\Debug\net6.0\Domain.deps.json
+D:\Assorttech projects\warren-catering\Domain\bin\Debug\net6.0\Domain.dll
+D:\Assorttech projects\warren-catering\Domain\bin\Debug\net6.0\Domain.pdb
+D:\Assorttech projects\warren-catering\Domain\obj\Debug\net6.0\Domain.csproj.AssemblyReference.cache
+D:\Assorttech projects\warren-catering\Domain\obj\Debug\net6.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Assorttech projects\warren-catering\Domain\obj\Debug\net6.0\Domain.AssemblyInfoInputs.cache
+D:\Assorttech projects\warren-catering\Domain\obj\Debug\net6.0\Domain.AssemblyInfo.cs
+D:\Assorttech projects\warren-catering\Domain\obj\Debug\net6.0\Domain.csproj.CoreCompileInputs.cache
+D:\Assorttech projects\warren-catering\Domain\obj\Debug\net6.0\EFCoreSqlServerNetTopologySuite.cs
+D:\Assorttech projects\warren-catering\Domain\obj\Debug\net6.0\ref\Domain.dll
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\Domain\bin\Debug\net6.0\Domain.deps.json
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\Domain\bin\Debug\net6.0\Domain.dll
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\Domain\bin\Debug\net6.0\Domain.pdb
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\Domain\obj\Debug\net6.0\Domain.csproj.AssemblyReference.cache
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\Domain\obj\Debug\net6.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\Domain\obj\Debug\net6.0\Domain.AssemblyInfoInputs.cache
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\Domain\obj\Debug\net6.0\Domain.AssemblyInfo.cs
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\Domain\obj\Debug\net6.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\Domain\obj\Debug\net6.0\EFCoreSqlServerNetTopologySuite.cs
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\Domain\obj\Debug\net6.0\Domain.dll
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\Domain\obj\Debug\net6.0\refint\Domain.dll
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\Domain\obj\Debug\net6.0\Domain.pdb
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\Domain\obj\Debug\net6.0\ref\Domain.dll

@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "Hash": "I6mvag55QzZK+fNKkA1F61zTjFDczzGbNCQa1RrAdzs=",
+  "Source": "WarrensCatering",
+  "BasePath": "_content/WarrensCatering",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "WarrensCatering\\wwwroot",
+      "Source": "WarrensCatering",
+      "ContentRoot": "C:\\Users\\T470s\\Desktop\\AssortTech\\WarrensCaterign App\\1) WarrenCatering\\WarrensCatering\\wwwroot\\",
+      "BasePath": "_content/WarrensCatering",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\T470s\\Desktop\\AssortTech\\WarrensCaterign App\\1) WarrenCatering\\WarrensCatering\\wwwroot\\Images\\Base638322151863383774.png",
+      "SourceId": "WarrensCatering",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\T470s\\Desktop\\AssortTech\\WarrensCaterign App\\1) WarrenCatering\\WarrensCatering\\wwwroot\\",
+      "BasePath": "_content/WarrensCatering",
+      "RelativePath": "Images/Base638322151863383774.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Base638322151863383774.png"
+    },
+    {
+      "Identity": "C:\\Users\\T470s\\Desktop\\AssortTech\\WarrensCaterign App\\1) WarrenCatering\\WarrensCatering\\wwwroot\\Images\\Base638331437119269370.png",
+      "SourceId": "WarrensCatering",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\T470s\\Desktop\\AssortTech\\WarrensCaterign App\\1) WarrenCatering\\WarrensCatering\\wwwroot\\",
+      "BasePath": "_content/WarrensCatering",
+      "RelativePath": "Images/Base638331437119269370.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Base638331437119269370.png"
+    }
+  ]
+}

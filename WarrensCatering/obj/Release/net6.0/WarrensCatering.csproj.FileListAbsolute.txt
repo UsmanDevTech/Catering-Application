@@ -1,0 +1,288 @@
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\WarrensCatering\bin\Release\net6.0\appsettings.Development.json
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\WarrensCatering\bin\Release\net6.0\appsettings.json
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\WarrensCatering\bin\Release\net6.0\WarrensCatering.staticwebassets.runtime.json
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\WarrensCatering\bin\Release\net6.0\WarrensCatering.exe
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\WarrensCatering\bin\Release\net6.0\WarrensCatering.deps.json
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\WarrensCatering\bin\Release\net6.0\WarrensCatering.runtimeconfig.json
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\WarrensCatering\bin\Release\net6.0\WarrensCatering.dll
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\WarrensCatering\bin\Release\net6.0\WarrensCatering.pdb
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\WarrensCatering\bin\Release\net6.0\FluentValidation.dll
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\WarrensCatering\bin\Release\net6.0\FluentValidation.AspNetCore.dll
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\WarrensCatering\bin\Release\net6.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\WarrensCatering\bin\Release\net6.0\GeoTimeZone.dll
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\WarrensCatering\bin\Release\net6.0\Humanizer.dll
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\WarrensCatering\bin\Release\net6.0\MediatR.dll
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\WarrensCatering\bin\Release\net6.0\MediatR.Contracts.dll
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\WarrensCatering\bin\Release\net6.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\WarrensCatering\bin\Release\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\WarrensCatering\bin\Release\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\WarrensCatering\bin\Release\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\WarrensCatering\bin\Release\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\WarrensCatering\bin\Release\net6.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\WarrensCatering\bin\Release\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\WarrensCatering\bin\Release\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\WarrensCatering\bin\Release\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\WarrensCatering\bin\Release\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\WarrensCatering\bin\Release\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\WarrensCatering\bin\Release\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\WarrensCatering\bin\Release\net6.0\Microsoft.EntityFrameworkCore.SqlServer.NetTopologySuite.dll
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\WarrensCatering\bin\Release\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\WarrensCatering\bin\Release\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\WarrensCatering\bin\Release\net6.0\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\WarrensCatering\bin\Release\net6.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\WarrensCatering\bin\Release\net6.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\WarrensCatering\bin\Release\net6.0\Microsoft.Identity.Client.dll
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\WarrensCatering\bin\Release\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\WarrensCatering\bin\Release\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\WarrensCatering\bin\Release\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\WarrensCatering\bin\Release\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\WarrensCatering\bin\Release\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\WarrensCatering\bin\Release\net6.0\Microsoft.OpenApi.dll
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\WarrensCatering\bin\Release\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\WarrensCatering\bin\Release\net6.0\NetTopologySuite.dll
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\WarrensCatering\bin\Release\net6.0\NetTopologySuite.IO.SqlServerBytes.dll
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\WarrensCatering\bin\Release\net6.0\ProjNET.dll
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\WarrensCatering\bin\Release\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\WarrensCatering\bin\Release\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\WarrensCatering\bin\Release\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\WarrensCatering\bin\Release\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\WarrensCatering\bin\Release\net6.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\WarrensCatering\bin\Release\net6.0\System.Drawing.Common.dll
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\WarrensCatering\bin\Release\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\WarrensCatering\bin\Release\net6.0\System.Linq.Dynamic.Core.dll
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\WarrensCatering\bin\Release\net6.0\System.Runtime.Caching.dll
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\WarrensCatering\bin\Release\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\WarrensCatering\bin\Release\net6.0\System.Security.Permissions.dll
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\WarrensCatering\bin\Release\net6.0\System.Windows.Extensions.dll
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\WarrensCatering\bin\Release\net6.0\TimeZoneConverter.dll
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\WarrensCatering\bin\Release\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\WarrensCatering\bin\Release\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\WarrensCatering\bin\Release\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\WarrensCatering\bin\Release\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\WarrensCatering\bin\Release\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\WarrensCatering\bin\Release\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\WarrensCatering\bin\Release\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\WarrensCatering\bin\Release\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\WarrensCatering\bin\Release\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\WarrensCatering\bin\Release\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\WarrensCatering\bin\Release\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\WarrensCatering\bin\Release\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\WarrensCatering\bin\Release\net6.0\Application.dll
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\WarrensCatering\bin\Release\net6.0\Domain.dll
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\WarrensCatering\bin\Release\net6.0\Infrastructure.dll
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\WarrensCatering\bin\Release\net6.0\Infrastructure.pdb
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\WarrensCatering\bin\Release\net6.0\Application.pdb
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\WarrensCatering\bin\Release\net6.0\Domain.pdb
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\WarrensCatering\obj\Release\net6.0\WarrensCatering.csproj.AssemblyReference.cache
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\WarrensCatering\obj\Release\net6.0\WarrensCatering.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\WarrensCatering\obj\Release\net6.0\WarrensCatering.AssemblyInfoInputs.cache
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\WarrensCatering\obj\Release\net6.0\WarrensCatering.AssemblyInfo.cs
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\WarrensCatering\obj\Release\net6.0\WarrensCatering.csproj.CoreCompileInputs.cache
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\WarrensCatering\obj\Release\net6.0\WarrensCatering.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\WarrensCatering\obj\Release\net6.0\WarrensCatering.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\WarrensCatering\obj\Release\net6.0\staticwebassets\msbuild.WarrensCatering.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\WarrensCatering\obj\Release\net6.0\staticwebassets\msbuild.build.WarrensCatering.props
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\WarrensCatering\obj\Release\net6.0\staticwebassets\msbuild.buildMultiTargeting.WarrensCatering.props
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\WarrensCatering\obj\Release\net6.0\staticwebassets\msbuild.buildTransitive.WarrensCatering.props
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\WarrensCatering\obj\Release\net6.0\staticwebassets.pack.json
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\WarrensCatering\obj\Release\net6.0\staticwebassets.build.json
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\WarrensCatering\obj\Release\net6.0\staticwebassets.development.json
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\WarrensCatering\obj\Release\net6.0\scopedcss\bundle\WarrensCatering.styles.css
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\WarrensCatering\obj\Release\net6.0\WarrensCatering.csproj.CopyComplete
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\WarrensCatering\obj\Release\net6.0\WarrensCatering.dll
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\WarrensCatering\obj\Release\net6.0\refint\WarrensCatering.dll
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\WarrensCatering\obj\Release\net6.0\WarrensCatering.pdb
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\WarrensCatering\obj\Release\net6.0\WarrensCatering.genruntimeconfig.cache
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\WarrensCatering\obj\Release\net6.0\ref\WarrensCatering.dll
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\WarrensCatering\bin\Release\net6.0\appsettings.Development.json
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\WarrensCatering\bin\Release\net6.0\appsettings.json
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\WarrensCatering\bin\Release\net6.0\WarrensCatering.staticwebassets.runtime.json
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\WarrensCatering\bin\Release\net6.0\WarrensCatering.exe
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\WarrensCatering\bin\Release\net6.0\WarrensCatering.deps.json
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\WarrensCatering\bin\Release\net6.0\WarrensCatering.runtimeconfig.json
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\WarrensCatering\bin\Release\net6.0\WarrensCatering.dll
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\WarrensCatering\bin\Release\net6.0\WarrensCatering.pdb
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\WarrensCatering\bin\Release\net6.0\FluentValidation.dll
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\WarrensCatering\bin\Release\net6.0\FluentValidation.AspNetCore.dll
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\WarrensCatering\bin\Release\net6.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\WarrensCatering\bin\Release\net6.0\GeoTimeZone.dll
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\WarrensCatering\bin\Release\net6.0\Humanizer.dll
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\WarrensCatering\bin\Release\net6.0\MediatR.dll
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\WarrensCatering\bin\Release\net6.0\MediatR.Contracts.dll
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\WarrensCatering\bin\Release\net6.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\WarrensCatering\bin\Release\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\WarrensCatering\bin\Release\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\WarrensCatering\bin\Release\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\WarrensCatering\bin\Release\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\WarrensCatering\bin\Release\net6.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\WarrensCatering\bin\Release\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\WarrensCatering\bin\Release\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\WarrensCatering\bin\Release\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\WarrensCatering\bin\Release\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\WarrensCatering\bin\Release\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\WarrensCatering\bin\Release\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\WarrensCatering\bin\Release\net6.0\Microsoft.EntityFrameworkCore.SqlServer.NetTopologySuite.dll
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\WarrensCatering\bin\Release\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\WarrensCatering\bin\Release\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\WarrensCatering\bin\Release\net6.0\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\WarrensCatering\bin\Release\net6.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\WarrensCatering\bin\Release\net6.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\WarrensCatering\bin\Release\net6.0\Microsoft.Identity.Client.dll
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\WarrensCatering\bin\Release\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\WarrensCatering\bin\Release\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\WarrensCatering\bin\Release\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\WarrensCatering\bin\Release\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\WarrensCatering\bin\Release\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\WarrensCatering\bin\Release\net6.0\Microsoft.OpenApi.dll
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\WarrensCatering\bin\Release\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\WarrensCatering\bin\Release\net6.0\NetTopologySuite.dll
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\WarrensCatering\bin\Release\net6.0\NetTopologySuite.IO.SqlServerBytes.dll
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\WarrensCatering\bin\Release\net6.0\ProjNET.dll
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\WarrensCatering\bin\Release\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\WarrensCatering\bin\Release\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\WarrensCatering\bin\Release\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\WarrensCatering\bin\Release\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\WarrensCatering\bin\Release\net6.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\WarrensCatering\bin\Release\net6.0\System.Drawing.Common.dll
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\WarrensCatering\bin\Release\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\WarrensCatering\bin\Release\net6.0\System.Linq.Dynamic.Core.dll
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\WarrensCatering\bin\Release\net6.0\System.Runtime.Caching.dll
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\WarrensCatering\bin\Release\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\WarrensCatering\bin\Release\net6.0\System.Security.Permissions.dll
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\WarrensCatering\bin\Release\net6.0\System.Windows.Extensions.dll
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\WarrensCatering\bin\Release\net6.0\TimeZoneConverter.dll
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\WarrensCatering\bin\Release\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\WarrensCatering\bin\Release\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\WarrensCatering\bin\Release\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\WarrensCatering\bin\Release\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\WarrensCatering\bin\Release\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\WarrensCatering\bin\Release\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\WarrensCatering\bin\Release\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\WarrensCatering\bin\Release\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\WarrensCatering\bin\Release\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\WarrensCatering\bin\Release\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\WarrensCatering\bin\Release\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\WarrensCatering\bin\Release\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\WarrensCatering\bin\Release\net6.0\Application.dll
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\WarrensCatering\bin\Release\net6.0\Domain.dll
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\WarrensCatering\bin\Release\net6.0\Infrastructure.dll
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\WarrensCatering\bin\Release\net6.0\Infrastructure.pdb
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\WarrensCatering\bin\Release\net6.0\Application.pdb
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\WarrensCatering\bin\Release\net6.0\Domain.pdb
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\WarrensCatering\obj\Release\net6.0\WarrensCatering.csproj.AssemblyReference.cache
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\WarrensCatering\obj\Release\net6.0\WarrensCatering.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\WarrensCatering\obj\Release\net6.0\WarrensCatering.AssemblyInfoInputs.cache
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\WarrensCatering\obj\Release\net6.0\WarrensCatering.AssemblyInfo.cs
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\WarrensCatering\obj\Release\net6.0\WarrensCatering.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\WarrensCatering\obj\Release\net6.0\WarrensCatering.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\WarrensCatering\obj\Release\net6.0\WarrensCatering.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\WarrensCatering\obj\Release\net6.0\staticwebassets\msbuild.WarrensCatering.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\WarrensCatering\obj\Release\net6.0\staticwebassets\msbuild.build.WarrensCatering.props
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\WarrensCatering\obj\Release\net6.0\staticwebassets\msbuild.buildMultiTargeting.WarrensCatering.props
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\WarrensCatering\obj\Release\net6.0\staticwebassets\msbuild.buildTransitive.WarrensCatering.props
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\WarrensCatering\obj\Release\net6.0\staticwebassets.pack.json
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\WarrensCatering\obj\Release\net6.0\staticwebassets.build.json
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\WarrensCatering\obj\Release\net6.0\staticwebassets.development.json
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\WarrensCatering\obj\Release\net6.0\scopedcss\bundle\WarrensCatering.styles.css
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\WarrensCatering\obj\Release\net6.0\WarrensCatering.csproj.CopyComplete
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\WarrensCatering\obj\Release\net6.0\WarrensCatering.dll
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\WarrensCatering\obj\Release\net6.0\refint\WarrensCatering.dll
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\WarrensCatering\obj\Release\net6.0\WarrensCatering.pdb
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\WarrensCatering\obj\Release\net6.0\WarrensCatering.genruntimeconfig.cache
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\WarrensCatering\obj\Release\net6.0\ref\WarrensCatering.dll
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\WarrensCatering\bin\Release\net6.0\appsettings.Development.json
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\WarrensCatering\bin\Release\net6.0\appsettings.json
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\WarrensCatering\bin\Release\net6.0\WarrensCatering.staticwebassets.runtime.json
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\WarrensCatering\bin\Release\net6.0\WarrensCatering.exe
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\WarrensCatering\bin\Release\net6.0\WarrensCatering.deps.json
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\WarrensCatering\bin\Release\net6.0\WarrensCatering.runtimeconfig.json
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\WarrensCatering\bin\Release\net6.0\WarrensCatering.dll
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\WarrensCatering\bin\Release\net6.0\WarrensCatering.pdb
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\WarrensCatering\bin\Release\net6.0\FluentValidation.dll
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\WarrensCatering\bin\Release\net6.0\FluentValidation.AspNetCore.dll
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\WarrensCatering\bin\Release\net6.0\FluentValidation.DependencyInjectionExtensions.dll
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\WarrensCatering\bin\Release\net6.0\GeoTimeZone.dll
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\WarrensCatering\bin\Release\net6.0\Humanizer.dll
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\WarrensCatering\bin\Release\net6.0\MediatR.dll
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\WarrensCatering\bin\Release\net6.0\MediatR.Contracts.dll
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\WarrensCatering\bin\Release\net6.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\WarrensCatering\bin\Release\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\WarrensCatering\bin\Release\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\WarrensCatering\bin\Release\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\WarrensCatering\bin\Release\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\WarrensCatering\bin\Release\net6.0\Microsoft.AspNetCore.Identity.UI.dll
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\WarrensCatering\bin\Release\net6.0\Microsoft.Data.SqlClient.dll
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\WarrensCatering\bin\Release\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\WarrensCatering\bin\Release\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\WarrensCatering\bin\Release\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\WarrensCatering\bin\Release\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\WarrensCatering\bin\Release\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\WarrensCatering\bin\Release\net6.0\Microsoft.EntityFrameworkCore.SqlServer.NetTopologySuite.dll
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\WarrensCatering\bin\Release\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\WarrensCatering\bin\Release\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\WarrensCatering\bin\Release\net6.0\Microsoft.Extensions.FileProviders.Embedded.dll
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\WarrensCatering\bin\Release\net6.0\Microsoft.Extensions.Identity.Core.dll
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\WarrensCatering\bin\Release\net6.0\Microsoft.Extensions.Identity.Stores.dll
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\WarrensCatering\bin\Release\net6.0\Microsoft.Identity.Client.dll
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\WarrensCatering\bin\Release\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\WarrensCatering\bin\Release\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\WarrensCatering\bin\Release\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\WarrensCatering\bin\Release\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\WarrensCatering\bin\Release\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\WarrensCatering\bin\Release\net6.0\Microsoft.OpenApi.dll
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\WarrensCatering\bin\Release\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\WarrensCatering\bin\Release\net6.0\NetTopologySuite.dll
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\WarrensCatering\bin\Release\net6.0\NetTopologySuite.IO.SqlServerBytes.dll
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\WarrensCatering\bin\Release\net6.0\ProjNET.dll
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\WarrensCatering\bin\Release\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\WarrensCatering\bin\Release\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\WarrensCatering\bin\Release\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\WarrensCatering\bin\Release\net6.0\System.Configuration.ConfigurationManager.dll
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\WarrensCatering\bin\Release\net6.0\System.Diagnostics.DiagnosticSource.dll
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\WarrensCatering\bin\Release\net6.0\System.Drawing.Common.dll
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\WarrensCatering\bin\Release\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\WarrensCatering\bin\Release\net6.0\System.Linq.Dynamic.Core.dll
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\WarrensCatering\bin\Release\net6.0\System.Runtime.Caching.dll
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\WarrensCatering\bin\Release\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\WarrensCatering\bin\Release\net6.0\System.Security.Permissions.dll
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\WarrensCatering\bin\Release\net6.0\System.Windows.Extensions.dll
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\WarrensCatering\bin\Release\net6.0\TimeZoneConverter.dll
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\WarrensCatering\bin\Release\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\WarrensCatering\bin\Release\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\WarrensCatering\bin\Release\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\WarrensCatering\bin\Release\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\WarrensCatering\bin\Release\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\WarrensCatering\bin\Release\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\WarrensCatering\bin\Release\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\WarrensCatering\bin\Release\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\WarrensCatering\bin\Release\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\WarrensCatering\bin\Release\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\WarrensCatering\bin\Release\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\WarrensCatering\bin\Release\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\WarrensCatering\bin\Release\net6.0\Application.dll
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\WarrensCatering\bin\Release\net6.0\Domain.dll
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\WarrensCatering\bin\Release\net6.0\Infrastructure.dll
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\WarrensCatering\bin\Release\net6.0\Infrastructure.pdb
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\WarrensCatering\bin\Release\net6.0\Application.pdb
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\WarrensCatering\bin\Release\net6.0\Domain.pdb
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\WarrensCatering\obj\Release\net6.0\WarrensCatering.csproj.AssemblyReference.cache
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\WarrensCatering\obj\Release\net6.0\WarrensCatering.GeneratedMSBuildEditorConfig.editorconfig
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\WarrensCatering\obj\Release\net6.0\WarrensCatering.AssemblyInfoInputs.cache
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\WarrensCatering\obj\Release\net6.0\WarrensCatering.AssemblyInfo.cs
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\WarrensCatering\obj\Release\net6.0\WarrensCatering.csproj.CoreCompileInputs.cache
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\WarrensCatering\obj\Release\net6.0\WarrensCatering.MvcApplicationPartsAssemblyInfo.cs
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\WarrensCatering\obj\Release\net6.0\WarrensCatering.MvcApplicationPartsAssemblyInfo.cache
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\WarrensCatering\obj\Release\net6.0\staticwebassets\msbuild.WarrensCatering.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\WarrensCatering\obj\Release\net6.0\staticwebassets\msbuild.build.WarrensCatering.props
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\WarrensCatering\obj\Release\net6.0\staticwebassets\msbuild.buildMultiTargeting.WarrensCatering.props
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\WarrensCatering\obj\Release\net6.0\staticwebassets\msbuild.buildTransitive.WarrensCatering.props
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\WarrensCatering\obj\Release\net6.0\staticwebassets.pack.json
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\WarrensCatering\obj\Release\net6.0\staticwebassets.build.json
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\WarrensCatering\obj\Release\net6.0\staticwebassets.development.json
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\WarrensCatering\obj\Release\net6.0\scopedcss\bundle\WarrensCatering.styles.css
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\WarrensCatering\obj\Release\net6.0\WarrensCatering.csproj.CopyComplete
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\WarrensCatering\obj\Release\net6.0\WarrensCatering.dll
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\WarrensCatering\obj\Release\net6.0\refint\WarrensCatering.dll
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\WarrensCatering\obj\Release\net6.0\WarrensCatering.pdb
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\WarrensCatering\obj\Release\net6.0\WarrensCatering.genruntimeconfig.cache
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\WarrensCatering\obj\Release\net6.0\ref\WarrensCatering.dll

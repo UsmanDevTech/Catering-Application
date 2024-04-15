@@ -1,0 +1,390 @@
+﻿<style>
+    .modal-header div {
+        margin-bottom: 10px; /* Add margin to create space between div elements */
+    }
+
+    a {
+        color: #1F2D3D;
+        text-decoration: none;
+        background-color: transparent;
+        font-family: 'Open_SansBold';
+        font-size: 0.8rem;
+    }
+
+    .ellipsis-dropdown {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+
+    .ellipsis {
+        font-size: 24px;
+        background-color: white;
+        line-height: 0.5;
+        vertical-align: middle;
+        transform: rotateX(180deg);
+        padding-bottom: 0.7rem;
+        padding-top: 0px;
+    }
+
+    .adjust {
+        position: absolute;
+        width: 17px;
+        height: 17px;
+        top: 47px;
+        right: 17px;
+    }
+
+    .arrow {
+        position: absolute;
+        top: 71px;
+        cursor: pointer;
+    }
+
+    .btn-dayOfWeek {
+        height: 34px;
+        font-size: 13px;
+        width: 90px;
+        padding: 5px;
+        font-family: PoppinsFont;
+        border-radius: 10px;
+        color: #5F5F5F;
+        background-color: #EBEBEB;
+    }
+
+    .active-day {
+        color: #010C80;
+        background-color: #26BDF4;
+    }
+</style>
+
+<div class="container-fluid">
+    <a href="/Management/Organizations" class="arrow-link">
+        <i class="fa fa-arrow-left arrow" aria-hidden="true"></i>
+        <h3 style="margin-left: 20px;">Menu</h3>
+    </a>
+    <div class="card" style="border-radius: 15px;">
+        <div class="card-body" style="min-height:450px">
+            <div class="container-fluid">
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3>@TempData.Peek("companyName-edit")</h3>
+                    </div>
+                </div>
+
+                <div class="row" style="margin-bottom:20px;">
+                    <div class=" col-sm-12 col-md-12">
+                        <button class="btn btn-dayOfWeek active-day" value="1" id="btn-1">Monday</button>
+                        <button class="btn btn-dayOfWeek" value="2" id="btn-2">Tuesday</button>
+                        <button class="btn btn-dayOfWeek" value="3" id="btn-3">Wednesday</button>
+                        <button class="btn btn-dayOfWeek" value="4" id="btn-4">Thursday</button>
+                        <button class="btn btn-dayOfWeek" value="5" id="btn-5">Friday</button>
+                        <button class="btn btn-dayOfWeek" value="6" id="btn-6">Saturday</button>
+                        <button class="btn btn-dayOfWeek" value="0" id="btn-7">Sunday</button>
+                    </div>
+                </div>
+
+                <div id="btn-hide" class="d-none">
+                    <div class="row justify-content-center align-items-center text-center " style="margin-top : 60px;">
+                        <div class="col">
+                            <img src="~/Images/Group 230966.png" alt="Your Image Alt Text" />
+                        </div>
+                    </div>
+                    <div class="row justify-content-center align-items-center text-center " style="margin-top: 14px;">
+                        <div class="col">
+                            <h4>No Meals</h4>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center align-items-center text-center " style="margin-top: 14px;">
+                        <div class="col">
+                            <p>There hasn't been a particular number of meals <br /> assigned for the chosen day.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12 px-4">
+                        <div id="org-meals" class="row"></div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+@*Edit Meal Time Modal*@
+<div class="modal fade" id="meal-time-modal" role="dialog">
+    <div class="modal-dialog modal-md">
+        <!-- Modal content-->
+        <div class="modal-content" style="border-radius: 30px;">
+            <div class="modal-header">
+                <h6 class="pt-1">Edit Time</h6>
+                <span class="close cross" id="close-time-modal" style="cursor : pointer;">&times;</span>
+            </div>
+            <div class="modal-body">
+                <div class="form-row">
+                    <input type="hidden" value="0" id="edit-orgMealId" />
+                    <div class="form-group col-md-6">
+                        <label for="edit-sTime">Start Time</label>
+                        <input type="time" class="form-control" id="edit-sTime" style="height: 50px; border-radius: 7px;" />
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="edit-eTime">End Time</label>
+                        <input type="time" class="form-control" id="edit-eTime" style="height: 50px; border-radius: 7px;" />
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <div class="col">
+                        <a style="border-radius: 20px; font-size: 12px; width:10rem" onclick="updateMealTime()" class="btn btn-theme2">Update</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+
+    $(document).ready(function () {
+
+        function getOrgMealsHandler(res){
+            $('#org-meals').empty();
+
+            for (let orgMeal of res) {
+
+                $('#org-meals').append(
+                    `<div class="col-md-3 orgMeal">
+                        <div class="card bg-light" style="position: relative;">
+                            <div class="card-body orgMeal-body pb-3" >
+                                <img style="max-width:62px; height:56px; cursor:pointer;" src="${orgMeal.pictureUrl}"; />
+                                <br />
+                                <br />
+                                <label class="mb-0">${orgMeal.name}</label>
+                                <div class="ellipsis-dropdown">
+                                    <span class="ellipsis btn px-1" data-toggle="dropdown">...</span>
+                                    <div class="dropdown-menu" aria-labelledby="ellipsisDropdown">
+                                        <a class="dropdown-item" onclick="showEditModal($(this))">Edit Time </a>
+                                        <a class="dropdown-item" onclick="removeOrgMeal($(this))">Remove</a>
+                                    </div>
+                                </div>
+                                <div class="text-muted small time-span" >
+                                    <span class="startTime">${orgMeal.startTime}</span> - <span class="endTime">${orgMeal.endTime}</span>
+                                </div>
+                                <input type="hidden" class="orgMeal-id" value="${orgMeal.id}" />
+                            </div>
+                        </div>
+                    </div>`
+                );
+            }
+
+            //OrgMeal Click Feature
+            $('.orgMeal-body img').click(function () {
+                console.log('clicked');
+
+                //gets selected orgMeal values
+                const data = {};
+                data.orgMealId = $(this).siblings('input').val();
+                data.mealTypeName = $(this).siblings('label').text();
+                data.weekDay = $('.active-day').val();
+                console.log(data);
+
+                //send data and redirects to next page
+                $.ajax({
+                    type: "POST",
+                    url: "/Management/CompanyMealItemsEditInter",
+                    dataType: "json",
+                    contentType: "application/json",
+                    processData: false,
+                    data: JSON.stringify(data),
+                    success: function (res) {
+                        console.log(res);
+                        window.location.href = "/Management/CompanyMealItemsEdit";
+                    },
+                    error: function (error) {
+                        toastr.error("Error", error.message);
+                        return error;
+                    },
+                });
+
+            });
+
+        }
+
+        //get orgMeals
+        $.ajax({
+            type: "GET",
+            url: "/Management/GetOrgMeals?weekDay=1",
+            dataType: "json",
+            contentType: false,
+            processData: false,
+            success: function (res) {
+                console.log(res);
+
+                getOrgMealsHandler(res);
+            },
+            error: function (error) {
+                loaderdiv.innerhtml = '';
+                toastr.error("Error", error.message);
+                return error;
+            },
+        });
+
+
+        //day select
+        $('.btn-dayOfWeek').click(function () {
+            $('button.active-day').removeClass('active-day')
+            $(this).addClass('active-day');
+
+            //get orgMeals by day
+            let day = $(this).val();
+            $.ajax({
+                type: "GET",
+                url: "/Management/GetOrgMeals?weekDay=" + day,
+                dataType: "json",
+                contentType: false,
+                processData: false,
+                success: function (res) {
+                    console.log(res);
+
+                    getOrgMealsHandler(res);
+                },
+                error: function (error) {
+                    loaderdiv.innerhtml = '';
+                    toastr.error("Error", error.message);
+                    return error;
+                },
+            });
+        });
+
+        //closes edit Meal Time modal
+        $('#close-time-modal').click(function () {
+            $('#meal-time-modal').modal('hide');
+        });
+
+    });
+
+    //Edit OrgMeal Time Feature
+    function showEditModal(button) {
+        //getting values from orgMeal
+        let startTime = button.closest('.ellipsis-dropdown').siblings('.time-span').children('.startTime').text();
+        let endTime = button.closest('.ellipsis-dropdown').siblings('.time-span').children('.endTime').text();
+        let orgMealId = button.closest('.ellipsis-dropdown').siblings('.orgMeal-id').val();
+        console.log(endTime);
+        console.log(orgMealId);
+        console.log(convertTime12to24(endTime));
+
+        //inserting values in edit time modal
+        $('#edit-sTime').val(convertTime12to24(startTime));
+        $('#edit-eTime').val(convertTime12to24(endTime));
+        $('#edit-orgMealId').val(orgMealId);
+
+        $('#meal-time-modal').modal('show');
+    }
+
+    function updateMealTime() {
+        //getting values from edit time modal
+        var startTime_edit = $('#edit-sTime').val();
+        var endTime_edit = $('#edit-eTime').val();
+        let orgMealId = $('#edit-orgMealId').val();
+        let weekDay = $('.active-day').val();
+        console.log(orgMealId);
+        console.log(endTime_edit);
+        console.log(convertTime24to12(endTime_edit));
+
+        let executeHttpRequest = true;
+
+        if (executeHttpRequest == true) {
+            var data = {};
+            data.startTime = startTime_edit;
+            data.endTime = endTime_edit;
+            data.orgMealId = orgMealId;
+            data.weekDay = weekDay;
+
+            console.log(data);
+            loadHttpRequest("POST", "/Management/EditOrgMealTime", updateTimeHandler, JSON.stringify(data));
+        }
+
+    }
+
+    function updateTimeHandler(res) {
+        console.log(res);
+        Swal.fire({
+            title: 'Time updated successfully',
+            //imageUrl: '/content/dist/img/SwalSuccess.png',
+            //imageAlt: 'Success Icon',
+            icon: 'success',
+            timer: 1500,
+            showCancelButton: false,
+            showConfirmButton: false
+        }).then(function () {
+            let orgMealId = res.orgMealId;
+
+            //updates time values in orgMeal
+            let startTime12h = convertTime24to12(res.startTime);
+            let endTime12h = convertTime24to12(res.endTime);
+
+
+            $('.orgMeal input[value=' + orgMealId + ']').siblings('.time-span').children('.startTime').text(startTime12h);
+            $('.orgMeal input[value=' + orgMealId + ']').siblings('.time-span').children('.endTime').text(endTime12h);
+
+            //hides modal
+            $('#meal-time-modal').modal('hide');
+        })
+    }
+
+    //Permanent Delete Feature
+    function removeOrgMeal(button) {
+
+        let orgMealId = button.closest('.ellipsis-dropdown').siblings('.orgMeal-id').val();
+
+        //confirmation alert
+        title = '<span class="text-danger">Are you sure, you want to permanently delete this Meal?</span>';
+        confirmButtonText = 'Yes, Delete it!';
+        text = 'Meal will be permanently deleted along with it\'s Menu.';
+
+        swal.fire({
+            title: title,
+            text: text,
+            icon: 'warning',
+            allowOutsideClick: false,
+            showCloseButton: true,
+            confirmButtonColor: '#d33',
+            cancelButtonColor: '#3085d6',
+            showCancelButton: true,
+            confirmButtonText: confirmButtonText
+        }).then((result) => {
+            if (result.isConfirmed) {
+                loadHttpRequest("POST", "/Management/DeleteOrgMeal?orgMealId=" + orgMealId, deleteCallback);
+            }
+        });
+
+        //var card = button.closest('.orgMeal');
+
+        //if (card) {
+        //    card.remove();
+        //}
+    }
+
+    function deleteCallback(res) {
+        console.log(res);
+
+        Swal.fire({
+            title: 'Successful',
+            text: 'Meal Deleted Successfully.',
+            icon: 'success',
+            //imageUrl: '/content/dist/img/SwalSuccess.png',
+            //imageAlt: 'Success Icon',
+            timer: 1500,
+            showCancelButton: false,
+            showConfirmButton: false
+        }).then(function () {
+            let orgMealId = res;
+            $('.orgMeal input[value=' + orgMealId + ']').closest('.orgMeal').remove();
+        })
+    }
+
+</script>

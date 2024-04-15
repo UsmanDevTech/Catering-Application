@@ -1,0 +1,39 @@
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\Domain\bin\Release\net6.0\Domain.deps.json
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\Domain\bin\Release\net6.0\Domain.dll
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\Domain\bin\Release\net6.0\Domain.pdb
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\Domain\obj\Release\net6.0\Domain.csproj.AssemblyReference.cache
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\Domain\obj\Release\net6.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\Domain\obj\Release\net6.0\Domain.AssemblyInfoInputs.cache
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\Domain\obj\Release\net6.0\Domain.AssemblyInfo.cs
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\Domain\obj\Release\net6.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\Domain\obj\Release\net6.0\EFCoreSqlServerNetTopologySuite.cs
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\Domain\obj\Release\net6.0\Domain.dll
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\Domain\obj\Release\net6.0\refint\Domain.dll
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\Domain\obj\Release\net6.0\Domain.pdb
+C:\Users\T470s\Desktop\AssortTech\WarrensCaterign App\1) WarrenCatering\Domain\obj\Release\net6.0\ref\Domain.dll
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\Domain\bin\Release\net6.0\Domain.deps.json
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\Domain\bin\Release\net6.0\Domain.dll
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\Domain\bin\Release\net6.0\Domain.pdb
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\Domain\obj\Release\net6.0\Domain.csproj.AssemblyReference.cache
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\Domain\obj\Release\net6.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\Domain\obj\Release\net6.0\Domain.AssemblyInfoInputs.cache
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\Domain\obj\Release\net6.0\Domain.AssemblyInfo.cs
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\Domain\obj\Release\net6.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\Domain\obj\Release\net6.0\EFCoreSqlServerNetTopologySuite.cs
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\Domain\obj\Release\net6.0\Domain.dll
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\Domain\obj\Release\net6.0\refint\Domain.dll
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\Domain\obj\Release\net6.0\Domain.pdb
+C:\Users\LENOVO\source\repos\warren catering\warren-catering\Domain\obj\Release\net6.0\ref\Domain.dll
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\Domain\bin\Release\net6.0\Domain.deps.json
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\Domain\bin\Release\net6.0\Domain.dll
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\Domain\bin\Release\net6.0\Domain.pdb
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\Domain\obj\Release\net6.0\Domain.csproj.AssemblyReference.cache
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\Domain\obj\Release\net6.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\Domain\obj\Release\net6.0\Domain.AssemblyInfoInputs.cache
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\Domain\obj\Release\net6.0\Domain.AssemblyInfo.cs
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\Domain\obj\Release\net6.0\Domain.csproj.CoreCompileInputs.cache
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\Domain\obj\Release\net6.0\EFCoreSqlServerNetTopologySuite.cs
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\Domain\obj\Release\net6.0\Domain.dll
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\Domain\obj\Release\net6.0\refint\Domain.dll
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\Domain\obj\Release\net6.0\Domain.pdb
+D:\Assorttech projects\Warren's Catering Latest\warren-catering\Domain\obj\Release\net6.0\ref\Domain.dll

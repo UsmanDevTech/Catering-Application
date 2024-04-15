@@ -1,0 +1,934 @@
+﻿<style>
+/*    .close {
+        border-radius: 60%;
+        border: 1px solid;
+        padding: 2px 5px !important;
+        margin: 0px !important;
+    }*/
+
+    .dropdown-item.active, .dropdown-item:active {
+        background-color: #f8f9fa;
+        color: black;
+    }
+
+    .dropopen {
+        min-width: 0px;
+    }
+
+
+    .company {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+    }
+
+    .company img {
+        max-width: 100px;
+        margin-right: 10px;
+    }
+
+    .company label {
+        flex-grow: 1;
+    }
+
+    .company-checkbox {
+        flex-shrink: 0;
+    }
+
+    hr {
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+        border: 0;
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
+    }
+
+    input[type=radio]:checked::before {
+        content: "";
+        display: block;
+        position: relative;
+        text-align: center;
+        height: 17px;
+        width: 17px;
+        background-color: #fff;
+        color: #fff;
+        font-family: "Montserrat";
+        border-radius: 20px;
+        border: 2px solid #77D4FC;
+    }
+
+    input[type=radio]:checked::after {
+        content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 24 24"> <circle cx="12" cy="12" r="10" fill="skyBlue"/><circle cx="12" cy="12" r="6" fill="skyBlue"/></svg>');
+        display: block;
+        position: relative;
+        left: 3px;
+        top: -21.4px;
+    }
+
+    input[type=radio] {
+        accent-color: #fff;
+        position: relative;
+        margin-right: 10px;
+        width: 16px;
+        height: 16px;
+        top: 2px !important;
+    }
+
+    @@media(max-width:765px) {
+        input[type=radio]:checked::after {
+            top: -19.7px !important;
+        }
+    }
+</style>
+
+<div class="container-fluid">
+    <h3>
+        <span class="vertical-line mr-2"></span>
+        Companies
+    </h3>
+    <div class="card mt-3" style="border-radius: 15px;">
+        <div class="card-body">
+            <div class="row">
+                <div class="buttons col-sm-6 col-md-6">
+                    <button class="btn btn-theme3 mt-1 btnstyle classcss selectedButton" id="btn-1" data-statusId="0">All</button>
+                    <button class="btn btn-theme3 mt-1 btnstyle classcss" id="btn-2" data-statusId="1">Active</button>
+                    <button class="btn btn-theme3 mt-1 btnstyle classcss" id="btn-3" data-statusId="2">Block</button>
+                </div>
+                <div class="col-sm-6 col-md-6">
+                    <button type="button" class="btn btn-theme2 btnmanager rounded-pill mt-1" style="background-color : #010C80" id="btn-add"> + Company </button>
+                    <button type="button" class="btn btn-theme2 btnmanager rounded-pill mt-1" style="background-color : #77D4FC; color : black;" id="btn-menu"> + Menu</button>
+                </div>
+            </div>
+        </div>
+        <div class="table-responsive" style="padding:0px 25px 25px 25px;">
+
+            <table class="table table-bordered w-100 text-nowrap" id="table-item">
+                <thead>
+                    <tr class="table-active">
+                        <th>Id</th>
+                        <th>
+                        Sr #
+                        </th>
+                        <th>
+                            Picture
+                        </th>
+                        <th>
+                            Company Name
+                        </th>
+                        <th>
+                            Contact Name
+                        </th>
+                        <th>
+                            Company Email
+                        </th>
+                        <th>
+                            Company Number
+                        </th>
+                        <th>
+                            Chef Name
+                        </th>
+                        <th>
+                            Unique ID
+                        </th>
+                        <th>
+                            Employees
+                        </th>
+                        <th>
+                            Menu
+                        </th>
+                        <th>
+                            Status
+                        </th>
+                        <th>
+                            Action
+                        </th>
+                    </tr>
+
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+</div>
+<input type="hidden" id="statusType" value="0" />
+
+@*Company Create or Edit Modal*@
+<div class="modal fade" id="company-modal" role="dialog">
+    <div class="modal-dialog modal-lg">
+        <!-- Modal content-->
+        <div class="modal-content px-2" style="border-radius: 30px;">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal-overlay-title">Dummy Heading</h5>
+                <span class="cross close" data-dismiss="modal" aria-label="Close" id="close-id">&times;</span>
+            </div>
+            <div class="modal-body justify-content-center ">
+                <div class="col-md-12 ">
+                    <form class="author-box-center" id="uploadPhoto">
+                        <p>
+                            <input type="file" accept="image/*" name="imageFile" id="file" onchange="loadFile(event)" class="d-none" />
+                        </p>
+                        <p class="text-center mb-0">
+                            <label for="file" class="cursor-pointer">
+                                <span style="border-radius: 50%; margin-left: 108px; position: absolute; width: 30px; height: 30px; margin-top: 105px;">
+                                    <img id="iconimage" class="img-responsive thumbnail shadow" src="~/content/dist/img/Group 240736.png" width="28" style="border-radius:60%; background:white;padding: 1px 0px 0px 1px;border: 2px solid #a9b9c9;" onclick="document.getElementById(iconimage)" />
+                                </span>
+                                <img style="object-fit: cover;padding: 2px;border: 2px solid #a9b9c9;" id="output" src="~/content/dist/img/Group 240737.png" class="rounded-circle shadow-sm" width="140" height="140" />
+                                <span id="percent" style="display:none;"></span>
+                            </label>
+                        </p>
+                        <p class="text-center font-weight-bolder lead">
+                            Upload Picture
+                        </p>
+                    </form>
+                </div>
+                <br>
+                <form>
+                    <input type="hidden" id="bodyId" name="id" />
+                    <input type="hidden" id="orgImage" name="orgImage" />
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="compName">Company Name</label>
+                            <input type="text" class="form-control" id="compName" maxlength="30" style="height: 50px; border-radius: 7px;" placeholder="Enter Company name">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="compEmail">Email</label>
+                            <input type="email" class="form-control" id="compEmail" style="height: 50px; border-radius: 7px;" placeholder="Enter  email" maxlength="40">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="compPhone">Phone Number</label>
+                            <input type="tel" class="form-control" id="compPhone" style="height: 50px; border-radius: 7px;" placeholder="+92 0000000" maxlength="25">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="compStrength">Strength</label>
+                            <input type="number" class="form-control" id="compStrength"  style="height: 50px; border-radius: 7px;" maxlength="4" max="9999" min="0" placeholder="0000">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="contactName">Contact Name</label>
+                            <input type="text" class="form-control" id="contactName" style="height: 50px; border-radius: 7px;" placeholder="Enter Contact Name" maxlength="30">
+                        </div>
+                    </div>
+
+                    <div class="form-group text-center">
+                        <button id="addButton" type="button" width="width : 80%" class="btn btn-theme2 class3 rounded-pill" onclick="addOrganization()">Save</button>
+                        <button id="editButton" type="button" width="width : 80%" class="btn btn-theme2 class3 rounded-pill d-none" onclick="updateItem()">Save Changes</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@*Select Company Modal*@
+<div class="modal fade" id="company-select-modal" role="dialog">
+    <div class="modal-dialog modal-sm">
+        <!-- Modal content-->
+        <div class="modal-content" style="border-radius: 20px;">
+            <div class="modal-header" style="margin-top:8px;">
+                <h6 class="modal-title">Select Company</h6>
+                <span class="close cross" id="close">&times;</span>
+            </div>
+            <div class="modal-body">
+                <!-- Search Field -->
+                <div class="form-group">
+                    <input type="text" class="form-control" id="searchInput" placeholder="Search" style="border-radius: 20px;">
+                    <img src="~/Images/search-24px.png" style="position: absolute;top: 24px;right: 23px;" />
+                </div>
+
+                <!-- List of Companies -->
+                <div class="company-list" id="company-list" style="height: 275px; overflow-y:auto">
+                    <!-- Company 1 -->
+                    <div class="company">
+                        <div class="company-info">
+                            <img src="~/Images/Ellipse 1267.png" alt="company logo">
+                            <label for="company-1">Company 1</label>
+                        </div>
+                        <div class="company-checkbox">
+                            <input type="radio" value="1" id="company-1" name="company">
+                        </div>
+                        @*  <div class="company-checkbox">
+                            <input type="checkbox" value="1" id="company-1" name="company">
+                        </div> *@
+                    </div>
+                    <hr />
+                    <!-- Company 2 -->
+                    <div class="company">
+                        <div class="company-info">
+                            <img src="~/Images/Ellipse 1267.png" alt="company logo">
+                            <label for="company-2">Company 2</label>
+                        </div>
+                        <div class="company-checkbox">
+                            <input type="checkbox" value="2" id="company-2" name="company">
+                        </div>
+                    </div>
+                    <hr />
+
+                </div>
+                <br />
+                <div class="form-group text-center">
+                    <button type="button" onclick="goToCompanyMeals()" width="width : 80%" style=" width: 228px; height: 43px; border-radius:41px; font-family: Open_SansBold;font-size: 15px; margin-top: 1rem;" class="btn btn-theme2">
+                        Next
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+
+    / script.js /
+    $(document).ready(function () {
+        // this enter only four digits
+        $('#compStrength').on('input', function () {
+            var value = $(this).val();
+            if (/^\d{1,4}$/.test(value)) {
+                // Input is valid, do nothing
+            } else {
+                // Input is not valid, remove extra characters
+                $(this).val(value.slice(0, 4));
+            }
+        });
+        //$('#close-id6').click(function () {
+        //    $('#item-modal').modal('hide');
+        //});
+        $("#nav-office").addClass("active");
+        // for changing image Of organization
+        if ($('#office-white').hasClass('d-none')) {
+            $('#office-white').removeClass('d-none');
+            $('#office').addClass('d-none');
+        }
+        else {
+            $('#office-white').addClass('d-none');
+            $('#office').removeClass('d-none');
+        }
+
+        $(".horizontal-ellipsis").click(function () {
+            $(".dropdown-content").toggle();
+        });
+
+        $(document).click(function (event) {
+            if (!$(event.target).closest(".dropdown").length) {
+                $(".dropdown-content").hide();
+            }
+        });
+    });
+
+    $(function () {
+
+        var columns = [
+            {
+                "data": "id",
+                "name": "id"
+            },
+            {
+                "data": "id",
+                "name": "id",
+                "render": function (data, type, row, meta) {
+                    // Get the current page number
+                    var currentPage = $('#table-item').DataTable().page.info().page;
+
+                    // Calculate the index based on the page and row
+                    var globalIndex = meta.row + currentPage * meta.settings._iDisplayLength + 1;
+
+                    // Format the index with leading zeros (e.g., 001, 002, 003)
+                    var formattedIndex = ("000" + globalIndex).slice(-3);
+
+                    // Display the formatted index
+                    return formattedIndex;
+                }
+            },
+            {
+                "data": "id",
+                "name": "id",
+                "render": function (data, row,payload) {
+                    let imageUrl = "";
+                    if (CheckNullUndefined(payload.imageUrl)) {
+                        imageUrl = "/assets/Images/companyLogoDefault.png";
+                    }
+                    else {
+                        imageUrl = payload.imageUrl;
+                    }
+
+                    return ' <div class="user-block">'
+                        + '     <img class="img-circle" src = "' + imageUrl + '">'
+                        + ' </div>';
+                }
+            },
+            {
+                "data": "name",
+                "name": "name",
+                "render": function (data, row, payload) {
+                    return '<span>' + data + '</span>';
+                }
+            },
+            {
+                "data": "contactName",
+                "name": "contactName",
+                "render": function (data, row, payload) {
+                    return '<span>' + data + '</span>';
+                }
+            },
+            {
+                "data": "email",
+                "name": "email",
+                "render": function (data, row, payload) {
+                    return '<span>' + data + '</span>';
+                }
+            },
+            {
+                "data": "number",
+                "name": "number",
+                "render": function (data, row, payload) {
+                    return '<span>' + data + '</span>';
+                }
+            },
+            {
+                "data": "id",
+                "name": "id",
+                "render": function (data, row, payload) {
+                    if(payload.chefId == null){
+                        return '<span class="text-muted">' + payload.chefName + '</span>';
+                    }
+                    else{
+                        return '<span style="color : #010C80">' + payload.chefName + '</span>';
+                    }
+                }
+            },
+            {
+                "data": "companyId",
+                "name": "companyId",
+                "render": function (data, row, payload) {
+                    return '<span>' + data + '</span>';
+                }
+            },
+            {
+                "data": "employees",
+                "name": "employees",
+                "render": function (data, row, payload) {
+                    return '<span>' + data + '</span>';
+                }
+            },
+            {
+                "data": "id",
+                "name": "id",
+                "render": function (data, row, payload) {
+                    return `<a class="btn btn-sm btn-white-eye" onclick="GotoMenu('${data}')">
+                                <i class="fas fa-eye"></i>
+                            </a>`;
+                }
+            },
+            {
+                "data": "isDeleted",
+                "name": "isDeleted",
+                "render": function (data, row, payload) {
+                    if (data == false) {
+                        return '<div style="text-align:center;"><span class="bg-success rounded py-1 px-2">Active</span></div>';
+                    }
+                    else {
+                        return '<div style="text-align:center;"><span class="bg-danger rounded py-1 px-2">Block&nbsp;</span></div>';
+                    }
+                }
+            },
+            {
+                "data": "id",
+                "name": "id",
+                "render": function (data, row, payload) {
+                    if (payload.isDeleted == false) {
+                        return `<div class="no-wrap"style="text-align:center;">
+                                   <div class="dropdown show">
+                                            <a class="dropdown actionBtn" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="fas fa-ellipsis-h"></i>
+                                        </a>
+                                        <div class="dropdown-menu dropopen" aria-labelledby="dropdownMenuLink">
+                                            <a class="dropdown-item cursor-pointer" id="editBtn" onclick="showUpdateModal(${data})" data-itemId=${data}>Edit</a>
+                                            <a class="dropdown-item cursor-pointer" id="deleteBtn" data-itemId=${data} data-status=${0}>Block</a>
+                                        </div>
+                                    </div>
+                                 </div>`;
+                    }
+                    else {
+                        return `<div class="no-wrap"style="text-align:center;">
+                                    <div class="dropdown show">
+                                            <a class="dropdown actionBtn" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="fas fa-ellipsis-h"></i>
+                                        </a>
+                                        <div class="dropdown-menu dropopen" aria-labelledby="dropdownMenuLink">
+                                            <a class="dropdown-item cursor-pointer" id="deleteBtn" data-itemId=${data} data-status=${1}>Active</a>
+                                        </div>
+                                    </div>
+                                 </div>`;
+                    }
+                }
+            }
+        ];
+
+        var order = [[0, "desc"]];
+        var columnDefs = [{
+            "targets": [0],
+            "visible": false,
+            "searchable": false
+        }];
+
+        //Init General Datatable
+        initGeneralDatatable('#table-item', '/pagination/getTableData/5', columns, order, columnDefs);
+        //initDatatable('#table-item', '/pagination/getTableData/1', '#statusType', '#pageTitleFilter', columns, order, columnDefs);
+
+        //status button click functionality
+        $('.buttons .btn-theme3').click(function () {
+            let statusId = $(this).attr('data-statusId');
+            console.log(statusId);
+
+            $('.btn-theme3').removeClass('selectedButton');
+            $(this).addClass('selectedButton');
+
+            //generating table according to status
+            initGeneralDatatableByStatus('#table-item', '/pagination/getTableData/5', columns, order, columnDefs, statusId);
+        });
+    });
+
+    $(document).on('change', 'input:radio[name=company]', function () {
+        if ($(this).prop('checked')) {
+            // Checkbox is checked, uncheck other checkboxes in the same group
+            $('input:radio[name=company]').not(this).prop('checked', false);
+        }
+    });
+
+    function GotoMenu(companyId){
+        $.ajax({
+            type: "POST",
+            url: "/Management/CompanyMealsInter",
+            dataType: "json",
+            contentType: "application/json",
+            processData: false,
+            data: JSON.stringify(companyId),
+            success: function (res) {
+                console.log(res);
+                window.location.href = "/Management/CompanyMeals";
+            },
+            error: function (error) {
+                toastr.error("Error", error.message);
+                return error;
+            },
+        });
+    }
+
+    //Select Company Feature
+    $('#btn-menu').click(function () {
+
+        $.ajax({
+            type: 'GET',
+            url: '/Management/GetCompanies',
+            async: true,
+            processData: false,
+            contentType: false,
+            success: function (res) {
+                console.log(res);
+
+                $('#company-list').empty();
+                for(let company of res){
+                    
+                    $('#company-list').append(
+                    `<div class="company">
+                        <div class="company-info">
+                            <img class="rounded-circle" src="${company.imageUrl}" alt="company logo" width="23px" height="23px">
+                                <label for="company-${company.id}" title="${company.name}">${company.name.length > 15 ? `${company.name.slice(0, 15)}...` : company.name}</label>
+                        </div>
+                        <div class="company-checkbox">
+                             <input type="radio" value="${company.id}" id="company-${company.id}" name="company">
+                        </div>
+                    </div>
+                    <hr />`
+                    );
+                }
+
+            },
+            error: function (error) {
+                return error;
+            },
+        });
+
+        $('#company-select-modal').modal('show');
+    });
+
+    $('#close').click(function () {
+        $('#company-select-modal').modal('hide');
+    });
+
+    var company = "";
+
+    function goToCompanyMeals(){
+
+        //const companyId = [];
+        $('input:radio[name=company]:checked').each(function () {
+            company = $(this).val();
+        });
+
+        var companyId = company;
+        console.log(companyId);
+
+        if (companyId == "") {
+            Toast.fire({ icon: 'warning', title: 'Need to select company first' });
+            //executeHttpRequest = false;
+            return;
+        }
+
+        $.ajax({
+            type: "POST",
+            url: "/Management/CompanyMealsInter",
+            dataType: "json",
+            contentType: "application/json",
+            processData: false,
+            data: JSON.stringify(companyId),
+            success: function (res) {
+                console.log(res);
+                window.location.href = "/Management/CompanyMeals";
+            },
+            error: function (error) {
+                toastr.error("Error", error.message);
+                return error;
+            },
+        });
+
+    }
+
+    //Update Feature
+    function showUpdateModal(orgId) {
+        //var categoryId = $(this).attr("data-categoryId");
+        $("#bodyId").val(orgId);
+        //alert($("#bodyId").val());
+        $.ajax({
+            type: 'GET',
+            url: '/Management/GetOrganization?orgId=' + orgId,
+            async: true,
+            processData: false,
+            contentType: false,
+            success: function (res) {
+                $("#compName").val(res.name);
+                $("#compEmail").val(res.email);
+                $("#compPhone").val(res.number);
+                $("#contactName").val(res.contactName);
+                $("#compStrength").val(res.totalEmployees);
+                $("#output").attr("src",res.imageUrl);
+                $("#orgImage").val(res.imageUrl);
+            },
+            error: function (error) {
+                return error;
+            },
+        });
+
+        //change modal title
+        $("#modal-overlay-title").html("Edit Company");
+
+        //show button
+        $("#addButton").addClass("d-none");
+        $("#editButton").removeClass("d-none");
+
+        //show modal
+        $("#company-modal").modal("toggle");
+    }
+
+    function updateItem() {
+        var Id = $("#bodyId").val();
+
+        let executeHttpRequest = true;
+
+        const data = {};
+        data.id = $("#bodyId").val();
+        data.name = $("#compName").val();
+        data.email = $("#compEmail").val();
+        data.number = $("#compPhone").val();
+        data.contactName = $("#contactName").val();
+        data.totalEmployees = $("#compStrength").val();
+        data.imageUrl = "";
+
+        let fileVal = $("#file").val();
+        let imageFile = $("#file")[0].files[0];
+
+        console.log(data);
+
+        //regex
+        let phoneRegex = /[A-Za-z]/;
+        var emailExp = /^(([^<>()\[\]\\.,;:\s@@"]+(\.[^<>()\[\]\\.,;:\s@@"]+)*)|(".+"))@@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+
+        //check fields
+        if (CheckNullUndefined(data.name)) {
+            Toast.fire({ icon: 'warning', title: 'Company Name is Required' });
+            executeHttpRequest = false;
+        }
+        else if (CheckNullUndefined(data.email)) {
+            Toast.fire({ icon: 'warning', title: 'Company Email is Required' });
+            executeHttpRequest = false;
+        }
+        else if (!data.email.match(emailExp)) {
+            Toast.fire({ icon: 'warning', title: 'Please enter a valid Email' });
+            executeHttpRequest = false;
+        }
+        else if (CheckNullUndefined(data.number)) {
+            Toast.fire({ icon: 'warning', title: 'Company Phone Number is Required' });
+            executeHttpRequest = false;
+        }
+        else if (data.number.match(phoneRegex)) {
+            Toast.fire({ icon: 'warning', title: 'Please enter a valid Phone Number' });
+            executeHttpRequest = false;
+        }
+        else if (CheckNullUndefined(data.totalEmployees)) {
+            Toast.fire({ icon: 'warning', title: 'Employees Strength is Required' });
+            executeHttpRequest = false;
+        }
+        else if (CheckNullUndefined(data.contactName)) {
+            Toast.fire({ icon: 'warning', title: 'Contact Name is Required' });
+            executeHttpRequest = false;
+        }
+        //else if (CheckNullUndefined(fileVal)) {
+        //    Toast.fire({ icon: 'warning', title: 'Company Profile Picture is Required' });
+        //    executeHttpRequest = false;
+        //}
+
+
+        if (fileVal == "") {
+            let image = $("#orgImage").val();
+
+            if (executeHttpRequest == true) {
+                data.imageUrl = image;
+                console.log(data);
+                console.log('image unchanged');
+                loadHttpRequest("PUT", "/Management/UpdateOrganization", updateItemCallback, JSON.stringify(data));
+            }
+        }
+        else {
+            if (executeHttpRequest == true) {
+
+                let formData = new FormData();
+                formData.append("file", imageFile);
+
+                $.ajax({
+                    type: "POST",
+                    url: "/Management/FileUpload",
+                    dataType: "json",
+                    contentType: false,
+                    processData: false,
+                    data: formData,
+                    success: function (res) {
+
+                        data.imageUrl = res;
+                        console.log(data);
+
+                        loadHttpRequest("PUT", "/Management/UpdateOrganization", updateItemCallback, JSON.stringify(data));
+                    },
+                    error: function (error) {
+                        toastr.error("Error", error.message);
+                        return error;
+                    },
+                });
+
+            }
+        }
+
+    }
+
+    function updateItemCallback(response) {
+        Swal.fire({
+            title: 'Successful',
+            text: 'Company Updated Successfully.',
+            icon: 'success',
+            //imageUrl: '/content/dist/img/SwalSuccess.png',
+            //imageAlt: 'Success Icon',
+            timer: 1500,
+            showCancelButton: false,
+            showConfirmButton: false
+        }).then(function () {
+            $("#company-modal").modal('hide');
+            table.draw();
+        })
+    }
+
+    //Add Feature
+    $('#btn-add').click(function () {
+        $("#bodyId").val('');
+        $('#company-modal input').val('');
+        $("#output").attr("src", "/assets/Images/ImagePlaceholder-cropped.png");
+
+        $("#modal-overlay-title").text("Create Company");
+        $("#editButton").addClass("d-none");
+        $("#addButton").removeClass("d-none");
+
+        $('#company-modal').modal('show');
+    });
+
+    //load image
+    function loadFile(event) {
+        var output = document.getElementById('output');
+        output.src = URL.createObjectURL(event.target.files[0]);
+        output.onload = function () {
+            URL.revokeObjectURL(output.src) // free memory
+        }
+    };
+
+    function addOrganization() {
+        let executeHttpRequest = true;
+
+        const data = {};
+        data.name = $("#compName").val();
+        data.email = $("#compEmail").val();
+        data.number = $("#compPhone").val();
+        data.contactName = $("#contactName").val();
+        data.totalEmployees = $("#compStrength").val();
+        data.imageUrl = "";
+
+        let fileVal = $("#file").val();
+        let imageFile = $("#file")[0].files[0];
+
+        console.log(data);
+
+        //regex
+        let phoneRegex = /[A-Za-z]/;
+        var emailExp = /^(([^<>()\[\]\\.,;:\s@@"]+(\.[^<>()\[\]\\.,;:\s@@"]+)*)|(".+"))@@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+
+        //check fields
+        if (CheckNullUndefined(data.name)) {
+            Toast.fire({ icon: 'warning', title: 'Company Name is Required' });
+            executeHttpRequest = false;
+        }
+        else if(CheckNullUndefined(data.email)){
+            Toast.fire({ icon: 'warning', title: 'Company Email is Required' });
+            executeHttpRequest = false;
+        }
+        else if (!data.email.match(emailExp)) {
+            Toast.fire({ icon: 'warning', title: 'Please enter a valid Email' });
+            executeHttpRequest = false;
+        }
+        else if (CheckNullUndefined(data.number)) {
+            Toast.fire({ icon: 'warning', title: 'Company Phone Number is Required' });
+            executeHttpRequest = false;
+        }
+        else if (data.number.match(phoneRegex)) {
+            Toast.fire({ icon: 'warning', title: 'Please enter a valid Phone Number' });
+            executeHttpRequest = false;
+        }
+        else if (CheckNullUndefined(data.totalEmployees)) {
+            Toast.fire({ icon: 'warning', title: 'Employees Strength is Required' });
+            executeHttpRequest = false;
+        }
+        else if (CheckNullUndefined(data.contactName)) {
+            Toast.fire({ icon: 'warning', title: 'Contact Name is Required' });
+            executeHttpRequest = false;
+        }
+        else if (CheckNullUndefined(fileVal)) {
+            Toast.fire({ icon: 'warning', title: 'Company Profile Picture is Required' });
+            executeHttpRequest = false;
+        }
+
+        if (executeHttpRequest == true) {
+
+            let formData = new FormData();
+            formData.append("file", imageFile);
+
+            $.ajax({
+                type: "POST",
+                url: "/Management/FileUpload",
+                dataType: "json",
+                contentType: false,
+                processData: false,
+                data: formData,
+                success: function (res) {
+                    data.imageUrl = res;
+                    console.log(data);
+                    loadHttpRequest("POST", "/Management/OrganizationCreate", createOrgHandler, JSON.stringify(data));
+                },
+                error: function (error) {
+                    toastr.error("Error", error.message);
+                    return error;
+                },
+            });
+
+        }
+    }
+
+    function createOrgHandler(evt) {
+        Swal.fire({
+            title: 'Organization Created successfully',
+            icon: 'success',
+            //imageUrl: '/content/dist/img/SwalSuccess.png',
+            //imageAlt: 'Success Icon',
+            timer: 1500,
+            showCancelButton: false,
+            showConfirmButton: false
+        }).then(function () {
+            table.draw();
+            $("#company-modal").modal('hide');
+        })
+    }
+
+    //Soft Delete Feature
+    $('#table-item tbody').on('click', '[id*=deleteBtn]', function () {
+        //Get Row Data
+        var data = table.row($(this).parents('tr')).data();
+
+        var itemId = $(this).attr("data-itemId");
+        var status = parseInt($(this).attr("data-status"));
+
+        var title, confirmButtonText;
+
+        if (status == 1) {
+            title = 'Are you sure, you want to unblock this item?';
+            confirmButtonText = 'Yes, Unblock it!';
+        }
+        else {
+            title = 'Are you sure, you want to block this item?';
+            confirmButtonText = 'Yes, Block it!';
+        }
+
+        swal.fire({
+            title: title,
+            icon: 'warning',
+            allowOutsideClick: false,
+            showCloseButton: true,
+            confirmButtonColor: '#3085d6',
+            cancelButtonColor: '#d33',
+            showCancelButton: true,
+            confirmButtonText: confirmButtonText
+        }).then((result) => {
+            if (result.isConfirmed) {
+                loadHttpRequest("POST", "/Management/SoftDeleteOrganization?id=" + itemId + "&isDeleted=" + status, softDeleteCallback);
+            }
+            else if (result.dismiss === Swal.DismissReason.cancel) {
+                // Code to execute if "Cancel" is clicked
+            }
+        });
+    });
+
+    function softDeleteCallback(response) {
+        Swal.fire({
+            title: 'Successful',
+            text: 'Status updated successfully.',
+            icon: 'success',
+            //imageUrl: '/content/dist/img/SwalSuccess.png',
+            //imageAlt: 'Success Icon',
+            timer: 1500,
+            showCancelButton: false,
+            showConfirmButton: false
+        }).then(function () {
+            table.draw();
+        })
+    }
+
+    $('#searchInput').on('input', function () {
+        var searchText = $(this).val().toLowerCase();
+
+        $('.company').each(function () {
+            var companyLabel = $(this).find('label').text().toLowerCase();
+
+            if (companyLabel.includes(searchText)) {
+                $(this).prependTo('.company-list');
+            }
+        });
+    });
+
+</script>
